@@ -1,0 +1,140 @@
+{% extends "../customers-base.html" %}
+
+{% block content %}
+
+    <div class="main_content">
+
+        <div class="title_bar">
+            <div>
+                <div>
+                    <h3><i class="fa-solid fa-store icon-list"></i> My Stores</h3>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h4>78336 <button><i class="fa-solid fa-location-dot"></i></button></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert">
+            <div>
+                <h5><button>1</button> Delivery Boy request pending...</h5>
+            </div>
+            <div>
+                <div>
+                    <button><i class="fa-solid fa-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile_sec">
+            <div >
+                <div class="center_profile">
+                    <div>
+                        <div style="background-image:url(https://newslivetv.com/wp-content/uploads/2020/06/grocery-shopsss.jpg)"></div>
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Justin Electric store</h3>
+                        </div>
+                        <div>
+
+                            <label class="online_offline">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+
+                            <button style="background-color:green;color:white;">store open</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div>
+                    <button>Delivery Boy (1)</button>
+                </div>
+                <div>
+
+                    <div class="more_btn">
+                        783360
+                        <button modal="more_list1" onclick="show_more_list(this)" class="more_btn_cont">more <i class="fa-solid fa-caret-down"></i></button>
+                        <div id="more_list1" style="display:none;" class="more_list">
+                            <ul>
+                                <li><i class="fa-solid fa-pen-to-square"></i> Edit</li>
+                                <li><i class="fa-solid fa-rectangle-ad"></i> Promote</li>
+                                <li><i class="fa-solid fa-share"></i> Share</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="create_bar">
+            <div>
+                <div><button><i class="fa-solid fa-plus"></i></button>
+                Create</div>
+            </div>
+            <div>
+                <div><h5>4</h5></div>
+            </div>
+        </div>
+
+
+        <div class="post_box">
+            <div>
+                <div>
+                    <p>20 Jan,23</p>
+                </div>
+                <div>
+                    <button>Sold</button>
+                </div>
+            </div>
+            <div>
+                <h4>New Brand Mobile 50% off</h4>
+            </div>
+            <div>
+                <div>
+                    <p>Offers</p>
+                </div>
+                <div>
+                    <button class="edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+                    <button class="del"><i class="fa-solid fa-trash"></i> Delete</button>
+                    <button class="view"><i class="fa-solid fa-eye"></i> preview</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="post_box">
+            <div>
+                <div>
+                    <p>20 Jan,23</p>
+                </div>
+                <div>
+                    <button>Sold</button>
+                </div>
+            </div>
+            <div>
+                <h4>New Brand Mobile 50% off</h4>
+            </div>
+            <div>
+                <div>
+                    <p>Offers</p>
+                </div>
+                <div>
+                    <button class="edit"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+                    <button class="del"><i class="fa-solid fa-trash"></i> Delete</button>
+                    <button class="view"><i class="fa-solid fa-eye"></i> preview</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+{% endblock content %}

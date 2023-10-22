@@ -1,0 +1,197 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static '/css/main.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+        <div class="container_full head">
+            <div class="container head_col">
+                <div >
+                    <div>
+                        <img src="{% static '/icons/logo/logo1.png' %}" alt="localnii logo" />
+                    </div>
+                    <div>
+                        <h2 >OCALNII</h2>
+                    </div>
+                </div>
+                <div >
+
+                    <div class="menu">
+                        <div title="Delivery Order">
+                            <button><i class="fa-solid fa-truck"></i></button>
+                            <button>2</button>
+                        </div>
+                        <div title="Sell Order">
+                            <button><i class="fa-solid fa-clipboard-check"></i></button>
+                            <button>2</button>
+                        </div>
+                        <div title="Messages">
+                            <button><i class="fa-solid fa-message"></i></button>
+                            <button>2</button>
+                        </div>
+                        <div title="Notification">
+                            <button><i class="fa-solid fa-bell"></i></button>
+                            <button>9+</button>
+                        </div>
+                        <div class="profile_img">
+                            <div>
+                                <div style="background-image:url(https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,q_60,w_645/0ac071df51837e4b91b71842ea368862.jpg)"></div>
+                            </div>
+                            <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container_full">
+            <div class="container content_col">
+                <div class="col_left">
+
+                    <div>
+                        <div class="left_pin">
+                            <button><i class="fa-solid fa-street-view"></i> 783360</button>
+                        </div>
+
+                        <div class="left_menu" style="border-bottom:none;">
+                            <ul class="vertical_list">
+                                <a href="/local-offers" class="link_color">
+                                    <li class="active"><i class="fa-solid fa-bolt icon-list"></i> Local offers</li>
+                                </a>
+                                <a href="/product-news" class="link_color">
+                                    <li><i class="fa-solid fa-clipboard-list icon-list"></i> Product News</li>
+                                </a>
+                                <a href="/local-events" class="link_color">
+                                    <li><i class="fa-regular fa-calendar icon-list"></i> Local Events</li>
+                                </a>
+                                <a href="/local-market" class="link_color">
+                                    <li><i class="fa-solid fa-bag-shopping icon-list"></i> Local Market</li>
+                                </a>
+                                <a href="/local-business" class="link_color">
+                                    <li><i class="fa-solid fa-briefcase icon-list"></i> Local Business</li>
+                                </a>
+                                <a href="/local-people" class="link_color">
+                                    <li><i class="fa-solid fa-users icon-list"></i> Local People</li>
+                                </a>
+                            </ul>
+                        </div>
+
+                        <div class="left_menu">
+                            <ul class="vertical_list">
+                                <a href="/my-posts" class="link_color">
+                                    <li><i class="fa-solid fa-newspaper icon-list"></i> My Posts <font class="level" style="color:#9ea79f;"><i class="fa-solid fa-plus"></i></font></li>
+                                </a>
+                                <a href="/my-market" class="link_color">
+                                    <li><i class="fa-solid fa-boxes-stacked icon-list"></i> My Market <font class="level" style="color:#9ea79f;"><i class="fa-solid fa-plus"></i></font></li>
+                                </a>
+                                <a href="/my-stores" class="link_color">
+                                    <li><i class="fa-solid fa-store icon-list"></i> My Stores <font class="level" style="color:#9ea79f;"><i class="fa-solid fa-plus"></i></font></li>
+                                </a>
+                                <a href="/my-referral" class="link_color">
+                                    <li><i class="fa-solid fa-users-rays icon-list"></i> My Referral <font class="level" style="color:#9ea79f;"><i class="fa-solid fa-plus"></i></font></li>
+                                </a>
+                                <a href="/delivery-boy" class="link_color">
+                                    <li><i class="fa-solid fa-truck icon-list"></i> Delivery Boy</li>
+                                </a>
+                                <a href="/my-earnings" class="link_color">
+                                    <li><i class="fa-solid fa-sack-dollar icon-list"></i> My Earnings <font class="level"><i class="fa-solid fa-indian-rupee-sign"></i>200</font></li>
+                                </a>
+                                <a href="/my-advertisement" class="link_color">
+                                    <li><i class="fa-solid fa-bullhorn icon-list"></i> My Advertisement</li>
+                                </a>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="left_menu" style="border:none;">
+                            <ul class="vertical_list">
+                                <a href="/settings" class="link_color">
+                                    <li><i class="fa-solid fa-gear icon-list"></i> Settings</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col_center">
+
+                    {% block content %}{% endblock content %}
+
+                </div>
+                <div class="col_right">
+
+                    <div>
+
+                        <div class="search_box">
+                            <div>
+                                <div>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Search..." />
+                            </div>
+                        </div>
+
+                        {% block right_bar %}{% endblock right_bar %}
+
+                        <div class="left_menu">
+                            <ul class="vertical_list">
+                                <a href="" class="link_color2">
+                                    <li><i class="fa-regular fa-rectangle-list icon-list"></i> My Orders <font class="level">0</font></li>
+                                </a>
+                                <a href="/my-business-contacts" class="link_color2">
+                                    <li><i class="fa-regular fa-id-card icon-list"></i> My Business Contacts <font class="level">0</font></li>
+                                </a>
+                                <a href="/my-contacts" class="link_color2">
+                                    <li><i class="fa-solid fa-address-book icon-list"></i> My Contacts <font class="level">0</font></li>
+                                </a>
+                                <a href="/my-saved" class="link_color2">
+                                    <li><i class="fa-solid fa-floppy-disk icon-list"></i> My Saved <font class="level">0</font></li>
+                                </a>
+                                <a href="/my-analytics" class="link_color2">
+                                    <li><i class="fa-solid fa-chart-simple icon-list"></i> My Analytics</li>
+                                </a>
+                            </ul>
+                        </div>
+
+                        <div class="left_menu" style="border-bottom:none;">
+                            <ul class="vertical_list">
+                                <a href="" class="link_color2">
+                                    <li><i class="fa-solid fa-map icon-list"></i> PinCode Map</li>
+                                </a>
+                                <a href="" class="link_color2">
+                                    <li><i class="fa-solid fa-book icon-list"></i> Guide & Helps</li>
+                                </a>
+                            </ul>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <script src="{% static '/js/style.js' %}"></script>
+
+        {% block foot %}{% endblock foot %}
+
+    </body>
+</html>

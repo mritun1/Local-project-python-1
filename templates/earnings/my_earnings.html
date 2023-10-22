@@ -1,0 +1,166 @@
+{% extends "../customers-base.html" %}
+
+{% block content %}
+
+    <div class="main_content">
+
+        <div class="title_bar">
+            <div>
+                <div>
+                    <h3><i class="fa-solid fa-sack-dollar icon-list"></i> My Earnings</h3>
+                </div>
+            </div>
+            <div>
+                <!-- Some codes here -->
+            </div>
+        </div>
+
+        <div class="post_create_btns">
+            <div>
+                <div>
+                    <h5>Total Balance</h5>
+                    <h2><i class="fa-solid fa-indian-rupee-sign"></i>800/-</h2>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h5><i class="fa-regular fa-calendar-days"></i> September</h5>
+                    <h2><i class="fa-solid fa-indian-rupee-sign"></i>80/-</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart">
+            <canvas id="inlineChart"></canvas>
+        </div>
+
+
+        <div class="tab_menu">
+            <div>
+                <h5><i class="fa-solid fa-clipboard-list"></i> Transactions</h5>
+            </div>
+            <div>
+                <h5><i class="fa-solid fa-building-columns"></i> Bank Details</h5>
+            </div>
+            <div>
+                <h5><i class="fa-solid fa-indian-rupee-sign"></i> Withdraw</h5>
+            </div>
+        </div>
+
+        <div class="bank transaction">
+            <div class="table-bar">
+                <div>
+                    <div>
+                        <button><i class="fa-solid fa-file-pdf"></i> Download</button>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        2/234
+                        <button><i class="fa-solid fa-caret-left"></i></button>
+                        <button><i class="fa-solid fa-caret-right"></i></button>
+                    </p>
+                </div>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Sl</th>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>20/09/2023</td>
+                        <td>Credit</td>
+                        <td><i class="fa-solid fa-indian-rupee-sign"></i>400/-</td>
+                        <td>success</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>20/09/2023</td>
+                        <td>Credit</td>
+                        <td><i class="fa-solid fa-indian-rupee-sign"></i>400/-</td>
+                        <td>success</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>20/09/2023</td>
+                        <td>Credit</td>
+                        <td><i class="fa-solid fa-indian-rupee-sign"></i>400/-</td>
+                        <td>success</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="bank bank_details">
+            <div class="table-bar">
+                <div>
+                    <h5>Bank Details <small>(Double Click to Edit)</small></h5>
+                </div>
+                <div>
+                    <p>
+                       <i class="fa-solid fa-indian-rupee-sign"></i>
+                    </p>
+                </div>
+            </div>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Full Name</td>
+                        <td>
+                            Mritunjoy Mushahary
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bank Name</td>
+                        <td>
+                            State Bank India
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IFSC Code</td>
+                        <td>
+                            SDF799DS
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="bank bank_details">
+            <div class="table-bar">
+                <div>
+                    <h5>Withdraw</h5>
+                </div>
+                <div>
+                    <p>
+                       <i class="fa-solid fa-indian-rupee-sign"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="single-div-center">
+                <div>
+                    <div>
+                        <input type="text" placeholder="Amount" />
+                    </div>
+                    <button>Withdraw</button>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+{% endblock content %}
+
+{% block foot %}
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/static/js/inline_chart.js"></script>
+{% endblock foot %}
+
